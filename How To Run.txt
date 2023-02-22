@@ -1,7 +1,9 @@
-To use this notebook on custom text, download the Doc2Vec Model from: (Warning, it is 6GB)
+To use this notebook on custom text, download the Doc2Vec Model d2v_english.pkl from: https://drive.google.com/file/d/16L0zufPCsB3nXLdY5BW5WJXxlMvrSSOf/view?usp=sharing (Warning, it is 6GB)
+To retrain the model, you will need to download enwiki-latest-abstract.xml.gz from https://dumps.wikimedia.org/enwiki/latest/ and simplewiki-latest-abstract.xml.gz from https://dumps.wikimedia.org/simplewiki/latest/
 
 While that is downloading, use:
 pip install -r requirements.txt
 To install all necessary packages. Some of these are unused, and are a relic from the development process.
 
 Finally, go through simpli_text.ipynb to run through various examples, as well as add your own by passing strings to the run_simplify method.
+There may be some errors from NLTK when running for the first time, saying that specific parts are missing. However, in the error message a line of code to download the necessary parts are given. These are usually enough to fix the problem.
