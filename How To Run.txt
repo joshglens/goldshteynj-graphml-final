@@ -1,0 +1,7 @@
+To use this notebook on custom text, download the Doc2Vec Model from: (Warning, it is 6GB)
+
+While that is downloading, use:
+pip install -r requirements.txt
+To install all necessary packages. Some of these are unused, and are a relic from the development process.
+
+Finally, go through simpli_text.ipynb to run through various examples, as well as add your own by passing strings to the run_simplify method.
